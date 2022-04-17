@@ -1,0 +1,825 @@
+/* START CODING OF MEDIA FOR WIBSITE MAX-WIDTH 1330PX */
+@media screen and (max-width: 1200px) {
+  /* START CODING OF HEADER */
+  .header .nav-menu {
+    display: flex !important;
+    height: 8vh;
+    border-bottom: none;
+    box-shadow: 0 2px 5px var(--box-shadow-color00);
+  }
+
+  .header .header-right {
+    display: none !important;
+  }
+
+  .header .header-left {
+    display: none !important;
+  }
+
+  .header .side-menu {
+    position: fixed;
+    width: 300px;
+    background: var(--background-color);
+    border-right: 1px solid var(--main-color);
+    align-items: flex-start;
+    padding-top: 150px;
+  }
+
+  .header .side-menu .icon-menu {
+    top: 15px;
+    right: 15px;
+  }
+
+  .header .side-menu .icon-menu i {
+    font-size: 1.2em;
+  }
+
+  .header .side-menu .menu-items ul li {
+    margin-bottom: 20px;
+  }
+
+  .header .side-menu .menu-items ul li a {
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .side-menu .menu-items ul li a.active {
+    background: var(--hover-background-color);
+    color: var(--main-color);
+  }
+
+  .header .side-menu .menu-items ul li span {
+    display: none;
+  }
+
+  .header .info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 3em 2.5em;
+  }
+
+  .header .info .container span {
+    font-size: 1.8em;
+  }
+  .header .info .container h1 {
+    font-size: 4.5em;
+  }
+
+  .header .info .container h1::before {
+    width: 45%;
+  }
+
+  .header .info .container p {
+    width: 100%;
+    font-size: 1.2em;
+  }
+
+  .header .info .container a {
+    letter-spacing: 2px;
+    position: relative;
+  }
+
+  .header .info .owl-carousel {
+    width: 60%;
+    top: 6em;
+  }
+
+  /* END CODING OF HEADER */
+  /* START CODING OF SECTION GALLERY FOR WIBSITE */
+  .section-gallery .content-gallery {
+    padding: 2em;
+  }
+
+  .section-gallery .content-gallery .header-gallery h2 {
+    font-size: 15em;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-left .img-gallery img {
+    height: 500px;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-right .img-gallery img {
+    height: 500px;
+  }
+
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  .section-t .content-t .b-t .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "col__00 col__01"
+      "col__02 col__02";
+
+    gap: 75px;
+  }
+
+  .section-t .content-t .b-t .row .col__00 {
+    grid-area: col__00;
+    margin-right: 0;
+  }
+
+  .section-t .content-t .b-t .row .col__01 {
+    grid-area: col__01;
+    margin-right: 0;
+  }
+
+  .section-t .content-t .b-t .row .col__02 {
+    grid-area: col__02;
+    width: 46vw;
+    margin: auto;
+  }
+
+  .section-content .content-c .col-2 .form-content .bottom-form .form .input {
+    display: block;
+    margin: 0 0 5em 0;
+  }
+
+  .section-content
+    .content-c
+    .col-2
+    .form-content
+    .bottom-form
+    .form
+    .input
+    .full__name {
+    margin-bottom: 35px;
+  }
+
+  .section-content
+    .content-c
+    .col-2
+    .form-content
+    .bottom-form
+    .form
+    input[type="text"],
+  .section-content
+    .content-c
+    .col-2
+    .form-content
+    .bottom-form
+    .form
+    input[type="email"] {
+    width: 100%;
+  }
+
+  .section-content .content-c .col-1 .sub .batt-sub input[type="email"] {
+    width: 100;
+  }
+
+  .section-content .content-c .col-1 .sub .batt-sub .input__subscribe {
+    width: 95%;
+  }
+
+  .section-content .content-c .col-1 .sub .batt-sub button {
+    width: 95%;
+  }
+
+  .section-content .content-c .col-2 .form-content .bottom-form .form .input {
+    margin: 0 0 3em 0;
+  }
+
+  .section-content .content-c .col-2 .form-content .bottom-form .form textarea {
+    display: block;
+    width: 75%;
+    margin: 0 0 0 0;
+  }
+
+  .footer .content-f .row .col-1 .row-info {
+    display: block;
+  }
+
+  .footer .content-f .row .col-1 .row-info .col-1 {
+    margin-bottom: 3em;
+  }
+}
+/* END CODING OF MEDIA FOR WIBSITE MAX-WIDTH 1330PX */
+
+/* START CODING OF MEDIA FOR WIBSITE MAX-WIDTH 1050PX */
+@media screen and (max-width: 1030px) {
+  /* START CODING OF SECTION ABOUT FOR WIBSITE */
+  .content-about {
+    padding: 1em 2em;
+  }
+
+  /* .content-about .about-l .about-l-t .about-letter .a {
+    font-size: 20em;
+  } */
+
+  .content-about .about-l .about-l-t .about-letter .about-words {
+    margin: 5em 0 0 10em;
+  }
+
+  .content-about .about-l .about-l-t .about-letter .about-words span {
+    font-size: 3em;
+  }
+
+  .content-about .about-l .about-l-b {
+    padding: 0.5em;
+  }
+
+  /* END CODING OF SECTION ABOUT FOR WIBSITE */
+
+  /* START CODING OF SECTION GALLERY FOR WIBSITE */
+
+  .section-gallery .content-gallery .header-gallery h2 {
+    font-size: 10em;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-left {
+    margin-top: -8em;
+  }
+  .section-gallery
+    .content-gallery
+    .gallery
+    .gallery-left
+    .img-gallery
+    .overlay {
+    background: none;
+    backdrop-filter: blur(0);
+    padding: 0;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .section-gallery
+    .content-gallery
+    .gallery
+    .gallery-left
+    .img-gallery
+    .overlay
+    .icon {
+    border: none;
+  }
+
+  .section-gallery
+    .content-gallery
+    .gallery
+    .gallery-right
+    .img-gallery
+    .overlay {
+    background: none;
+    backdrop-filter: blur(0);
+    padding: 0;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .section-gallery
+    .content-gallery
+    .gallery
+    .gallery-right
+    .img-gallery
+    .overlay
+    .icon {
+    border: none;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-right .img-gallery img {
+    height: 450px;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-left .img-gallery img {
+    height: 450px;
+  }
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  /* START CODING OF SECTION OFFER FOR WIBSITE */
+  .section-offer .content-offer .detuls-offer .h-d-o .words span {
+    font-size: 3.4em;
+  }
+
+  .section-offer .content-offer .detuls-offer .b-d-o .countdown .second {
+    display: none;
+  }
+
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  /* START CODING OF SECTION TESTIMANIALS FOR WIBSITE */
+  .section-t .content-t {
+    padding: 1em 0.2em;
+  }
+
+  .section-t .content-t .h-t .w {
+    font-size: 20em;
+  }
+
+  .section-t .content-t .h-t .words-t {
+    margin: 4em 0 0 12em;
+  }
+
+  .section-t .content-t .h-t .words-t span {
+    font-size: 3em;
+  }
+
+  .section-t .content-t .b-t {
+    height: auto;
+  }
+
+  .section-t .content-t .b-t .row .col1 {
+    padding: 4em 0.5em 0 2em;
+  }
+
+  /* END CODING OF SECTION TESTIMANIALS FOR WIBSITE */
+
+  .section-content .content-c .col-2 .form-content .head-form h2 {
+    font-size: 3em;
+  }
+
+  /* START CODING OF FOOTER FOR WIBSITE */
+  .footer .content-f .row .col-1 .row-info .col-1 h3 {
+    font-size: 1.2em;
+  }
+  /* END CODING OF FOOTER FOR WIBSITE */
+}
+/* END CODING OF MEDIA FOR WIBSITE MAX-WIDTH 1050PX */
+
+/* START CODING OF MEDIA FOR WIBSITE MAX-WIDTH 800PX */
+@media screen and (max-width: 780px) {
+  .header .box-search .box .search-input {
+    width: 25em;
+    height: 3.5em;
+  }
+
+  .header .box-search .box .search-input input[type="text"] {
+    font-size: 1em;
+    line-height: 1em;
+  }
+
+  .header .box-search .box .search-input .search-icon .fa-search {
+    font-size: 1.1em;
+  }
+
+  .header .box-search .box .search-input .autocom-box {
+    max-height: 210px;
+  }
+
+  .header .box-search .box .search-input .autocom-box li {
+    padding: 0.3rem 0.2rem;
+    font-size: 0.8em;
+    letter-spacing: 0px;
+  }
+
+  .header .info .owl-carousel {
+    display: none;
+  }
+
+  .content-about {
+    display: block;
+    padding: 1em 1.5em;
+  }
+
+  .content-about .about-l .about-l-b {
+    padding: 0.458em;
+    text-align: center;
+  }
+
+  .content-about .about-l .about-l-b a {
+    text-align: start;
+  }
+
+  /* START CODING OF SECTION GALLERY FOR WIBSITE */
+
+  .section-gallery .content-gallery {
+    padding: 2em 1em;
+  }
+
+  .section-gallery .content-gallery .header-gallery h2 {
+    font-size: 8em;
+  }
+
+  .section-gallery .content-gallery .gallery {
+    display: block;
+    margin: 2rem auto;
+    width: 75%;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-left {
+    margin-top: 0;
+  }
+
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  /* START CODING OF SECTION OFFER FOR WIBSITE */
+
+  .section-offer .content-offer {
+    display: block;
+    padding: 1em 0;
+  }
+
+  .section-offer .content-offer .detuls-offer .h-d-o .words span {
+    margin: 0 0 0 2em;
+  }
+
+  .section-offer .content-offer .detuls-offer .parg {
+    text-align: center;
+  }
+
+  .section-offer .content-offer .detuls-offer .b-d-o .countdown .minute {
+    display: none;
+  }
+
+  .section-offer .content-offer .img-offer {
+    height: 550px;
+  }
+
+  .section-offer .content-offer .img-offer .img img {
+    height: 450px;
+  }
+
+  .section-offer .content-offer .img-offer::before {
+    top: 17%;
+    left: 0;
+    height: 320px;
+  }
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  /* START CODING OF SECTION TESTIMANIALS FOR WIBSITE */
+  .section-t .content-t {
+    padding: 1em 0.2em;
+  }
+
+  .section-t .content-t .h-t .words-t span {
+    font-size: 2.7em;
+  }
+
+  .section-t .content-t .b-t {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-t .content-t .b-t .row {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .section-t .content-t .b-t .row .col__00,
+  .section-t .content-t .b-t .row .col__01 {
+    display: block;
+  }
+
+  .section-t .content-t .b-t .row .col1 {
+    width: 100%;
+    padding: 4em 1.2em 0 2.5em;
+    margin: 0 0 2em 0;
+    height: 520px;
+  }
+
+  .section-t .content-t .b-t .row .col1.ma {
+    margin-right: 0;
+  }
+  /* END CODING OF SECTION TESTIMANIALS FOR WIBSITE */
+
+  /* START   CODING OF SECTION CONTENT FOR WIBSITE */
+
+  .section-content .content-c {
+    padding: 1em 0;
+    display: block;
+  }
+
+  .section-content .content-c .col-1 {
+    height: auto;
+    padding: 2em 0 6em 2em;
+  }
+
+  .section-content .content-c .col-2 .form-content .bottom-form .form .input {
+    display: block;
+    margin: 0 0 2em 0;
+  }
+
+  .section-content .content-c .col-2 .form-content .head-form h2 {
+    font-size: 3.5em;
+  }
+
+  .section-content .content-c .col-2 {
+    padding: 4em 0 5em 0;
+  }
+
+  .section-content .content-c .col-2 .form-content {
+    padding: 0 0 0 1.5em;
+  }
+
+  /* END CODING OF SECTION CONTENT FOR WIBSITE */
+
+  /* START CODING OF FOOTER FOR WIBSITE */
+
+  .footer {
+    margin-top: 0;
+  }
+
+  .footer .content-f {
+    padding: 2em 0;
+    text-align: center;
+  }
+
+  .footer .content-f .row .footer-p {
+    justify-content: center;
+  }
+
+  .footer .content-f .row .col-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer .content-f .row .col-1 .row-info {
+    display: block;
+    height: auto;
+  }
+
+  .footer .content-f .row .col-1 .row-info .col-1 {
+    height: auto;
+    padding: 3em 0 1em 0;
+  }
+  .footer .content-f .row .col-1 .row-info .col-2 {
+    height: auto;
+    padding: 1em 0 3em;
+  }
+
+  .footer .content-f .row .col-1 .row-info .col-2 .icon {
+    margin: 3em 0 0 0;
+  }
+
+  /* END CODING OF FOOTER FOR WIBSITE */
+}
+/* END CODING OF MEDIA FOR WIBSITE MAX-WIDTH 800PX */
+
+/* START CODING OF MEDIA FOR WIBSITE MAX-WIDTH 500PX */
+@media screen and (max-width: 540px) {
+  .header .info {
+    padding: 2em;
+  }
+
+  .header .info .container span {
+    font-size: 1.4em;
+  }
+  .header .info .container h1 {
+    font-size: 3.487em;
+  }
+
+  .header .box-search .box .search-input {
+    width: 17em;
+  }
+
+  .header .box-search .box .search-input input[type="text"] {
+    font-size: 0.987em;
+  }
+
+  .header .box-search .box .search-input .search-icon .fa-search {
+    font-size: 1em;
+  }
+
+  .content-about {
+    display: block;
+    padding: 1em 1.5em;
+  }
+
+  .content-about .about-r {
+    height: auto;
+  }
+
+  .content-about .about-r .container__about .about-r-b .about-r-b-l {
+    margin-bottom: 2em;
+  }
+
+  .content-about .about-r .container__about .about-r-t .about-r-t-l {
+    margin-bottom: 2em;
+  }
+  .content-about
+    .about-r
+    .container__about
+    .about-r-b
+    .about-r-b-l
+    .about-r-b-l01
+    div {
+    text-align: center;
+  }
+
+  .content-about
+    .about-r
+    .container__about
+    .about-r-t
+    .about-r-t-l
+    .about-r-t-l01
+    div {
+    text-align: center;
+  }
+
+  .content-about .about-r .container__about {
+    width: 100%;
+    display: block;
+  }
+
+  .content-about .about-r .container__about .about-r-b .about-r-b-l {
+    height: 120px;
+  }
+
+  .content-about .about-r .container__about .about-r-t .about-r-t-l {
+    height: 120px;
+  }
+
+  .content-about .about-l .about-l-b {
+    padding: 0.458em;
+    text-align: center;
+  }
+
+  .content-about .about-l .about-l-b a {
+    text-align: start;
+  }
+
+  /* START CODING OF SECTION GALLERY FOR WIBSITE */
+
+  .section-gallery .content-gallery {
+    padding: 2em 1em;
+  }
+
+  .section-gallery .content-gallery .header-gallery h2 {
+    font-size: 4em;
+    margin-bottom: 1em;
+  }
+
+  .section-gallery .content-gallery .gallery {
+    margin: 1rem auto;
+    width: 100%;
+  }
+
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  /* START CODING OF SECTION OFFER FOR WIBSITE */
+
+  .section-offer .content-offer .detuls-offer .parg {
+    text-align: center;
+  }
+
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  /* START CODING OF SECTION TESTIMANIALS FOR WIBSITE */
+  .section-t .content-t {
+    padding: 1em 0.2em;
+  }
+
+  .section-t .content-t .h-t {
+    justify-content: flex-start;
+    padding: 5em 0 5em 2em;
+  }
+
+  .section-t .content-t .b-t .row {
+    width: 100%;
+    padding: 30px 10px;
+  }
+
+  .section-t .content-t .h-t .w {
+    font-size: 15em;
+  }
+
+  .section-t .content-t .h-t .words-t {
+    margin: 0 0 0 4em;
+  }
+
+  .section-t .content-t .b-t .row .col1 h3 {
+    font-size: 2em;
+    margin: 0.345em 0;
+  }
+
+  /* END CODING OF SECTION TESTIMANIALS FOR WIBSITE */
+
+  .section-brands .content-b {
+    height: auto;
+    padding: 2em 0;
+    width: 85%;
+    margin: auto;
+  }
+
+  /* START CODING OF FOOTER FOR WIBSITE */
+
+  /* END CODING OF FOOTER FOR WIBSITE */
+
+  .back-to-top {
+    bottom: 4em;
+    right: 4em;
+  }
+  .back-to-top .icon i {
+    font-size: 2em;
+  }
+}
+/* END CODING OF MEDIA FOR WIBSITE MAX-WIDTH 500PX */
+
+/* START CODING OF MEDIA FOR WIBSITE MAX-WIDTH 350PX */
+@media screen and (max-width: 385px) {
+  .header .nav-menu {
+    padding: 0 0.8em;
+  }
+
+  .header .nav-menu .nav-logo img {
+    width: 1.2em;
+  }
+
+  .header .nav-menu .nav-menus .menu-- {
+    width: 2.8em;
+  }
+
+  .header .nav-menu .nav-icons .icon-header .fa-search {
+    margin-right: 0.8rem;
+  }
+
+  .header .nav-menu .nav-icons .icon-header i {
+    font-size: 0.8em;
+  }
+
+  .header .info {
+    padding: 2em 0.587em;
+  }
+
+  .header .info .container span {
+    font-size: 1em;
+  }
+  .header .info .container h1 {
+    font-size: 2.487em;
+  }
+
+  .header .box-search .box .search-input {
+    width: 17em;
+  }
+
+  .header .box-search .box .search-input input[type="text"] {
+    font-size: 0.987em;
+  }
+
+  .header .box-search .box .search-input .search-icon .fa-search {
+    font-size: 1em;
+  }
+
+  .content-about .about-l .about-l-t .about-letter {
+    padding: 3.5em 0;
+  }
+
+  .content-about .about-l .about-l-t .about-letter .a {
+    font-size: 20em;
+  }
+
+  .content-about .about-l .about-l-t .about-letter .about-words {
+    margin: 5em 0 0 4em;
+  }
+
+  /* START CODING OF SECTION GALLERY FOR WIBSITE */
+
+  .section-gallery .content-gallery .gallery .gallery-left .link-img-gallery {
+    padding: 0 0 0 0;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-right .img-gallery {
+    margin: 2em 0.357em;
+  }
+
+  .section-gallery .content-gallery .gallery .gallery-left .img-gallery {
+    margin: 2em 0.357em;
+  }
+
+  /* END CODING OF SECTION GALLERY FOR WIBSITE */
+
+  .section-offer .content-offer .detuls-offer .h-d-o .words span {
+    margin: 0 0 0 0.5em;
+  }
+
+  .section-t .content-t .h-t {
+    padding-left: 0.4em;
+  }
+
+  .section-t .content-t .h-t .words-t {
+    margin: 0;
+    margin-left: 2em;
+  }
+
+  .section-t .content-t .h-t .w {
+    font-size: 13em;
+  }
+
+  .section-t .content-t .b-t .row {
+    width: 95%;
+  }
+
+  .section-t .content-t .b-t .row .col1 {
+    padding: 4em 0.2em 0 1em;
+  }
+
+  .section-content .content-c .col-1 {
+    padding: 2em 0 6em 0.5em;
+  }
+
+  .section-content .content-c .col-2 {
+    padding: 3em 0 4em 0;
+  }
+
+  .section-content .content-c .col-2 .form-content .head-form h2 {
+    font-size: 2.6em;
+  }
+}
+/* END CODING OF MEDIA FOR WIBSITE MAX-WIDTH 350PX */
